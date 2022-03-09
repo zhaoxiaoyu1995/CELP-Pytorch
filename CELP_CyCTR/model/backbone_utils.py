@@ -63,8 +63,8 @@ class BackboneBase(nn.Module):
 
 
 resnets_dict = {
-    'resnet50': (resnet50, '/mnt/data/pretrained_model/backbones/resnet50_v2.pth'),
-    'resnet101': (resnet101, '/mnt/data/pretrained_model/imagenet/backbones/resnet101_v2.pth'),
+    'resnet50': (resnet50, './backbones/resnet50_v2.pth'),
+    'resnet101': (resnet101, './backbones/resnet101_v2.pth'),
 }
 
 
