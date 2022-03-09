@@ -37,8 +37,7 @@ python prepare_coco_data.py
 
 ## Train
 
-- Create a fold of 'backbones' at the root directory. Download the ImageNet pretrained [backbone](https://mycuhk-my.sharepoint.com/personal/1155122171_link_cuhk_edu_hk/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F1155122171_link_cuhk_edu_hk%2FDocuments%2FPFENet TPAMI Submission%2FPFENet_checkpoints%2Fbackbone.zip&parent=%2Fpersonal%2F1155122171_link_cuhk_edu_hk%2FDocuments%2FPFENet TPAMI Submission%2FPFENet_checkpoints), and put them into the 'backbones' directory.
-
+- Create a fold of 'backbones' at the root directory. Download the ImageNet pretrained <a href="https://mycuhk-my.sharepoint.com/personal/1155122171_link_cuhk_edu_hk/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F1155122171_link_cuhk_edu_hk%2FDocuments%2FPFENet TPAMI Submission%2FPFENet_checkpoints%2Fbackbone.zip&parent=%2Fpersonal%2F1155122171_link_cuhk_edu_hk%2FDocuments%2FPFENet TPAMI Submission%2FPFENet_checkpoints" target="_blank">backbone</a>, and put them into the 'backbones' directory.
 - For the implementation of CELP with baseline CyCTR, the Deformable DETR dependencies should be built first.
 
 ```shell
