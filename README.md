@@ -28,8 +28,8 @@ opencv-python
 
 ## Data Preparation
 
-- Pascal-$5^i$: download PASCAL [VOC 2012]([The PASCAL Visual Object Classes Challenge 2012 (VOC2012) (ox.ac.uk)](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/)) and [SBD]([Semantic Boundaries Dataset and Benchmark (bharathh.info)](http://home.bharathh.info/pubs/codes/SBD/download.html)) dataset. For SBD dataset, the val images should be excluded from the list of training samples.
-- COCO-$20^i$: download [COCO2014](https://cocodataset.org/#download) dataset, including 2014 train images, 2014 val images, and 2014 Train/Val annotations.  Extract the files in the same directory, and run
+- Pascal-5i: download PASCAL [VOC 2012](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/) and [SBD](http://home.bharathh.info/pubs/codes/SBD/download.html) dataset. For SBD dataset, the val images should be excluded from the list of training samples.
+- COCO-20i: download [COCO2014](https://cocodataset.org/#download) dataset, including 2014 train images, 2014 val images, and 2014 Train/Val annotations.  Extract the files in the same directory, and run
 
 ```shell
 python prepare_coco_data.py
@@ -37,7 +37,7 @@ python prepare_coco_data.py
 
 ## Train
 
-- Create a fold of 'backbones' at the root directory. Download the ImageNet pretrained [backbones](https://mycuhk-my.sharepoint.com/personal/1155122171_link_cuhk_edu_hk/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F1155122171_link_cuhk_edu_hk%2FDocuments%2FPFENet TPAMI Submission%2FPFENet_checkpoints%2Fbackbone.zip&parent=%2Fpersonal%2F1155122171_link_cuhk_edu_hk%2FDocuments%2FPFENet TPAMI Submission%2FPFENet_checkpoints), and put them into the 'backbones' directory.
+- Create a fold of 'backbones' at the root directory. Download the ImageNet pretrained [backbone](https://mycuhk-my.sharepoint.com/personal/1155122171_link_cuhk_edu_hk/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F1155122171_link_cuhk_edu_hk%2FDocuments%2FPFENet TPAMI Submission%2FPFENet_checkpoints%2Fbackbone.zip&parent=%2Fpersonal%2F1155122171_link_cuhk_edu_hk%2FDocuments%2FPFENet TPAMI Submission%2FPFENet_checkpoints), and put them into the 'backbones' directory.
 
 - For the implementation of CELP with baseline CyCTR, the Deformable DETR dependencies should be built first.
 
